@@ -1,0 +1,99 @@
+
+
+body {
+    background-color: whitesmoke;
+    max-width: 900px;
+    margin: 24px auto;
+}
+
+hr {
+    margin: 0;
+    
+}
+
+header > h1 {
+    display: inline-block;
+    font-size: 35px;
+    color: whitesmoke;
+    padding-bottom: 0px;
+    background-color: darkgreen;
+    padding: 5px; 
+}
+ 
+header > nav {
+    float: right;
+    padding-top: 15px;
+}
+
+nav {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+ 
+nav ul li { 
+   display: inline;
+    font-size: 25px;
+    padding-left: 30px;    
+}
+
+a:link {
+    color: darkgreen;
+}
+
+a:hover {
+    color: darkolivegreen;
+}
+ 
+#kathyPic {
+    float: left;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+article {
+    float: left;
+    max-width: 600px;
+}
+/*  
+main {
+    background-image: url(images/about-subtlepattern.png);
+}
+/*  */
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+p {
+    background-image: url(images/about-subtlepattern.png);
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding: 10px;
+}
+
+aside > img {
+    margin-top: 10px;
+    padding-left: 10px;
+    color: green;
+}
+
+aside h2 {
+    font-size: 20;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic; 
+}
+
+main aside {
+    float: right; 
+}
+
+
+
+
