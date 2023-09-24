@@ -53,11 +53,7 @@ article {
     float: left;
     max-width: 600px;
 }
-/*  
-main {
-    background-image: url(images/about-subtlepattern.png);
-}
-/*  */
+
 main::after {
     content: "";
     clear: both;
@@ -92,6 +88,15 @@ h2 {
 
 main aside {
     float: right; 
+}
+
+footer {
+
+    background-color: lightslategray;
+    padding: 6px;
+    font-size: 10px;
+    color: whitesmoke;
+    text-align: center;
 }
 
 
