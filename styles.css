@@ -16,7 +16,7 @@ header > h1 {
     font-size: 35px;
     color: whitesmoke;
     padding-bottom: 0px;
-    background-color: darkgreen;
+    background-color: #006989;
     padding: 5px; 
 }
  
@@ -36,11 +36,15 @@ nav ul li {
 }
 
 a:link {
-    color: darkgreen;
+    color: #006989;
 }
 
 a:hover {
-    color: darkolivegreen;
+    color: orange;
+}
+
+a:visited {
+    color: black;
 }
  
 #kathyPic {
@@ -87,12 +91,14 @@ h2 {
 }
 
 main aside {
-    float: right; 
+    float: right;
+    
+
 }
 
 footer {
 
-    background-color: lightslategray;
+    background-color: #006989;
     padding: 6px;
     font-size: 10px;
     color: whitesmoke;
